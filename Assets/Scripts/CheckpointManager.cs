@@ -4,55 +4,33 @@ public class CheckpointManager : MonoBehaviour
 {
     public static CheckpointManager Instance;
 
-    private Vector3 currentCheckpointPosition;
+    private Vector3 currentCheckpoint;
     private bool hasCheckpoint = false;
 
-    void Awake()
+    private void Awake()
     {
-        Debug.Log("CheckpointManager Awake llamado");
-
+        // Singleton simple
         if (Instance == null)
         {
             Instance = this;
-            DontDestroyOnLoad(gameObject);
-            Debug.Log("CheckpointManager instanciado correctamente");
-
-            // Buscar jugador para checkpoint inicial
-            SetInitialCheckpoint();
         }
         else
         {
-            Debug.Log("CheckpointManager duplicado - destruyendo");
             Destroy(gameObject);
         }
     }
 
-    private void SetInitialCheckpoint()
+    // Guardar un checkpoint
+    public void ActivateCheckpoint(Vector3 position)
     {
-        GameObject player = GameObject.FindGameObjectWithTag("Player");
-        if (player != null)
-        {
-            SetCheckpoint(player.transform.position);
-            Debug.Log("Checkpoint inicial establecido en posición del jugador: " + player.transform.position);
-        }
-        else
-        {
-            // Si no hay jugador, establecer en (0,0,0) o donde prefieras
-            SetCheckpoint(Vector3.zero);
-            Debug.Log("Checkpoint inicial establecido en Vector3.zero");
-        }
-    }
-
-    public void SetCheckpoint(Vector3 position)
-    {
-        currentCheckpointPosition = position;
+        currentCheckpoint = position;
         hasCheckpoint = true;
-        Debug.Log("Nuevo checkpoint establecido en: " + position);
+        Debug.Log("Checkpoint activado en: " + position);
     }
 
     public Vector3 GetCurrentCheckpoint()
     {
-        return currentCheckpointPosition;
+        return currentCheckpoint;
     }
 
     public bool HasCheckpoint()
@@ -60,3 +38,4 @@ public class CheckpointManager : MonoBehaviour
         return hasCheckpoint;
     }
 }
+

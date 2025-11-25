@@ -7,6 +7,7 @@ TagManager:
   - Floor
   - platform
   - Item
+  - Checkpoint
   layers:
   - Default
   - TransparentFX

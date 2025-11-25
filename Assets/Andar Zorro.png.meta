@@ -1,0 +1,546 @@
+fileFormatVersion: 2
+guid: c3e854cb9d71d734a910eefa944d8fe4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -749058933937862386
+    second: Andar Zorro_0
+  - first:
+      213: -5976843903588330135
+    second: Andar Zorro_1
+  - first:
+      213: 7231213500489701468
+    second: Andar Zorro_2
+  - first:
+      213: 8811492969373818075
+    second: Andar Zorro_3
+  - first:
+      213: -8289307108191549193
+    second: Andar Zorro_4
+  - first:
+      213: 5104356400099757470
+    second: Andar Zorro_5
+  - first:
+      213: -4673861283331264712
+    second: Andar Zorro_6
+  - first:
+      213: -4574959865464109463
+    second: Andar Zorro_7
+  - first:
+      213: 4579813480079908131
+    second: Andar Zorro_8
+  - first:
+      213: -7593678908597239508
+    second: Andar Zorro_9
+  - first:
+      213: -6260455375171283149
+    second: Andar Zorro_10
+  - first:
+      213: 8659831750584846195
+    second: Andar Zorro_11
+  - first:
+      213: 5523911825992901735
+    second: Andar Zorro_12
+  - first:
+      213: -6539188266947130718
+    second: Andar Zorro_13
+  - first:
+      213: 6405874768383762464
+    second: Andar Zorro_14
+  - first:
+      213: 1616918388451216040
+    second: Andar Zorro_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Andar Zorro_0
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 1664
+        width: 259
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e090dc64edeca95f0800000000000000
+      internalID: -749058933937862386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Andar Zorro_1
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 1659
+        width: 263
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96598a8e22cfd0da0800000000000000
+      internalID: -5976843903588330135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Andar Zorro_2
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 1657
+        width: 265
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5892b7bd5e6a5460800000000000000
+      internalID: 7231213500489701468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Andar Zorro_3
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 1662
+        width: 261
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdcd06c9b26b84a70800000000000000
+      internalID: 8811492969373818075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Andar Zorro_4
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 1148
+        width: 245
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f84f1e8a1776fc80800000000000000
+      internalID: -8289307108191549193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Andar Zorro_5
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 1147
+        width: 261
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9d00f21a1156d640800000000000000
+      internalID: 5104356400099757470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Andar Zorro_6
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 1145
+        width: 264
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83fa69d0deb132fb0800000000000000
+      internalID: -4673861283331264712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Andar Zorro_7
+      rect:
+        serializedVersion: 2
+        x: 1659
+        y: 1146
+        width: 265
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 966c755dd3a7280c0800000000000000
+      internalID: -4574959865464109463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Andar Zorro_8
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 634
+        width: 265
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32d55b16814ce8f30800000000000000
+      internalID: 4579813480079908131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Andar Zorro_9
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 637
+        width: 258
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c218fa20445dd9690800000000000000
+      internalID: -7593678908597239508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Andar Zorro_10
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 639
+        width: 256
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3371bbe61056e19a0800000000000000
+      internalID: -6260455375171283149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Andar Zorro_11
+      rect:
+        serializedVersion: 2
+        x: 1658
+        y: 634
+        width: 268
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 377424c6817ed2870800000000000000
+      internalID: 8659831750584846195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Andar Zorro_12
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 128
+        width: 254
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 764e2eee980e8ac40800000000000000
+      internalID: 5523911825992901735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Andar Zorro_13
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 122
+        width: 245
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2aac635dae22045a0800000000000000
+      internalID: -6539188266947130718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Andar Zorro_14
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 121
+        width: 250
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 020e62d792d36e850800000000000000
+      internalID: 6405874768383762464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Andar Zorro_15
+      rect:
+        serializedVersion: 2
+        x: 1667
+        y: 131
+        width: 250
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aa8e6e15b2707610800000000000000
+      internalID: 1616918388451216040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Andar Zorro_0: -749058933937862386
+      Andar Zorro_1: -5976843903588330135
+      Andar Zorro_10: -6260455375171283149
+      Andar Zorro_11: 8659831750584846195
+      Andar Zorro_12: 5523911825992901735
+      Andar Zorro_13: -6539188266947130718
+      Andar Zorro_14: 6405874768383762464
+      Andar Zorro_15: 1616918388451216040
+      Andar Zorro_2: 7231213500489701468
+      Andar Zorro_3: 8811492969373818075
+      Andar Zorro_4: -8289307108191549193
+      Andar Zorro_5: 5104356400099757470
+      Andar Zorro_6: -4673861283331264712
+      Andar Zorro_7: -4574959865464109463
+      Andar Zorro_8: 4579813480079908131
+      Andar Zorro_9: -7593678908597239508
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

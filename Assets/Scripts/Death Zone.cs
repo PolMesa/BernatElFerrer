@@ -19,7 +19,7 @@ public class DeathZone : MonoBehaviour
         {
             // Aquí defines lo que pasa al "morir"
             // Por ejemplo, destruir al jugador:
-            collision.GetComponent<PlayerController>().Die();
+            collision.GetComponent<PlayerStateMachine>().Die();
 
             // O reiniciar la escena:
             // SceneManager.LoadScene(SceneManager.GetActiveScene().name);
