@@ -1,44 +1,99 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 public class EnemyPatrolState : EnemyState
 {
-    private float arrivalThreshold = 0.1f; // margen para detectar llegada
-
     public EnemyPatrolState(EnemyStateMachine enemy) : base(enemy) { }
 
-    public override void Enter() { }
+    public override void Enter()
+    {
+        Debug.Log("🚶 Entrando en Patrol State");
+
+        // Asegurar que tiene un punto objetivo
+        if (enemy.targetPoint == null)
+        {
+            enemy.targetPoint = enemy.rightPoint;
+            Debug.Log("📍 TargetPoint era null, asignado a rightPoint");
+        }
+
+        Debug.Log($"🎯 Punto objetivo: {enemy.targetPoint.name}");
+    }
 
     public override void Update()
     {
-        if (enemy.targetPoint == null) return;
-
-        // Movimiento m�s seguro hacia el punto
-        Vector2 newPos = Vector2.MoveTowards(enemy.transform.position,
-                                             enemy.targetPoint.position,
-                                             enemy.moveSpeed * Time.deltaTime);
-        enemy.transform.position = new Vector3(newPos.x, newPos.y, enemy.transform.position.z);
-
-        // Flip del sprite
-        float dir = enemy.targetPoint.position.x - enemy.transform.position.x;
-        if (dir != 0)
-            enemy.transform.localScale = new Vector3(Mathf.Sign(dir), 1, 1);
-
-        // Cambiar de punto al llegar
-        float distance = Vector2.Distance(enemy.transform.position, enemy.targetPoint.position);
-        if (distance <= arrivalThreshold)
-        {
-            enemy.SwitchTargetPoint();
-        }
-
         // Detectar jugador
-        if (enemy.player != null && Vector2.Distance(enemy.transform.position, enemy.player.position) <= enemy.detectionRange)
+        if (enemy.PlayerInDetectionRange())
         {
             enemy.ChangeState(enemy.chaseState);
+            return;
+        }
+
+        // Verificar si los puntos están asignados
+        if (enemy.targetPoint == null)
+        {
+            Debug.LogError("❌ targetPoint es null!");
+            return;
+        }
+
+        // Calcular distancia al punto objetivo
+        float distanceToTarget = Vector2.Distance(enemy.transform.position, enemy.targetPoint.position);
+
+        // DEBUG cada 2 segundos
+        if (Time.frameCount % 120 == 0)
+        {
+            Debug.Log($"📏 Distancia a {enemy.targetPoint.name}: {distanceToTarget:F2}, Reach: {enemy.reachDistance}");
+        }
+
+        // Si llegó al punto, cambiar al siguiente
+        if (distanceToTarget <= enemy.reachDistance)
+        {
+            Debug.Log($"✅ Llegó a {enemy.targetPoint.name} - Cambiando punto");
+            enemy.SwitchTargetPoint();
+        }
+        else
+        {
+            // Moverse hacia el punto objetivo
+            enemy.MoveTowards(enemy.targetPoint.position);
         }
     }
 
-    public override void Exit() { }
+    public override void Exit()
+    {
+        Debug.Log("Saliendo de Patrol State");
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -1,32 +1,40 @@
-using UnityEngine;
+ï»¿using UnityEngine;
 
 public class EnemyChaseState : EnemyState
 {
     public EnemyChaseState(EnemyStateMachine enemy) : base(enemy) { }
 
-    public override void Enter() { }
+    public override void Enter()
+    {
+        // Activar animaciÃ³n de andar al entrar en chase
+        if (enemy.animator != null)
+        {
+            enemy.animator.Play("Walk"); // Ajusta al nombre de tu animaciÃ³n de andar
+        }
+    }
 
     public override void Update()
     {
-        if (enemy.player == null) return;
-
-        float distance = Vector2.Distance(enemy.transform.position, enemy.player.position);
-
-        // Si está fuera del rango de detección, volver a patrullar
-        if (distance > enemy.detectionRange)
+        if (enemy.player == null)
         {
             enemy.ChangeState(enemy.patrolState);
             return;
         }
 
-        // Si está lo suficientemente cerca, atacar
-        if (distance <= enemy.attackRange)
+        float distance = Vector2.Distance(enemy.transform.position, enemy.player.position);
+
+        if (distance > enemy.detectionRange)
+        {
+            enemy.ChangeState(enemy.patrolState);
+            return;
+        }
+        else if (distance <= enemy.attackRange)
         {
             enemy.ChangeState(enemy.attackState);
             return;
         }
 
-        // Moverse hacia el jugador
+        // Perseguir al jugador
         enemy.MoveTowards(enemy.player.position);
     }
 
@@ -35,5 +43,10 @@ public class EnemyChaseState : EnemyState
         enemy.StopMoving();
     }
 }
+
+
+
+
+
 
 
