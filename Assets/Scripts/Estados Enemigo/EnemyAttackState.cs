@@ -2,23 +2,22 @@
 
 public class EnemyAttackState : EnemyState
 {
-    private float attackDuration = 1f;
-    private float currentAttackTime = 0f;
-    private bool attackExecuted = false;
+    private float attackCooldown = 1f;
+    private float currentCooldown = 0f;
+    private bool canAttack = true;
+    private int damageAmount = 1;
 
     public EnemyAttackState(EnemyStateMachine enemy) : base(enemy) { }
 
     public override void Enter()
     {
-        Debug.Log("🎯 ENTRANDO EN ESTADO ATAQUE");
-
+        Debug.Log("🎯 ENEMIGO ATACA");
         enemy.StopMoving();
-        currentAttackTime = 0f;
-        attackExecuted = false;
+        currentCooldown = 0f;
+        canAttack = true;
 
-        // REPRODUCIR ANIMACIÓN DE ATAQUE
-        enemy.animator.Play("Ataque");
-        Debug.Log("🎭 Animación de Ataque activada");
+        // Iniciar ataque
+        StartAttack();
     }
 
     public override void Update()
@@ -29,82 +28,69 @@ public class EnemyAttackState : EnemyState
             return;
         }
 
-        currentAttackTime += Time.deltaTime;
-
-        // Ejecutar lógica de ataque a mitad de la animación
-        if (!attackExecuted && currentAttackTime >= attackDuration * 0.3f)
-        {
-            ExecuteAttack();
-            attackExecuted = true;
-        }
-
-        // Cuando termina la animación de ataque
-        if (currentAttackTime >= attackDuration)
-        {
-            DecideNextState();
-        }
-    }
-
-    private void ExecuteAttack()
-    {
-        Debug.Log("⚔️ Ejecutando ataque");
         float distance = Vector2.Distance(enemy.transform.position, enemy.player.position);
-        if (distance <= enemy.attackRange)
-        {
-            Debug.Log("💥 Ataque conectado!");
-            // player.GetComponent<PlayerHealth>().TakeDamage(1);
-        }
-    }
 
-    private void DecideNextState()
-    {
-        if (enemy.player == null)
+        if (distance > enemy.attackRange)
         {
-            ReturnToPatrol();
+            if (distance <= enemy.detectionRange)
+            {
+                enemy.ChangeState(enemy.chaseState);
+            }
+            else
+            {
+                ReturnToPatrol();
+            }
             return;
         }
 
-        float distance = Vector2.Distance(enemy.transform.position, enemy.player.position);
+        if (!canAttack)
+        {
+            currentCooldown -= Time.deltaTime;
+            if (currentCooldown <= 0f)
+            {
+                canAttack = true;
+                StartAttack();
+            }
+        }
+    }
 
+    private void StartAttack()
+    {
+        Debug.Log("⚔️ Iniciando ataque enemigo");
+        enemy.animator.Play("Ataque");
+        canAttack = false;
+        currentCooldown = attackCooldown;
+
+        // El daño se aplicará con Animation Event
+        // Invoke(nameof(ApplyDamage), 0.3f); // Opcional: si no usas Animation Events
+    }
+
+    // MÉTODO PARA ANIMATION EVENT
+    public void ApplyDamage()
+    {
+        Debug.Log("💥 Enemigo aplica daño (Animation Event)");
+
+        if (enemy.player == null) return;
+
+        float distance = Vector2.Distance(enemy.transform.position, enemy.player.position);
         if (distance <= enemy.attackRange)
         {
-            // Sigue en rango, atacar de nuevo
-            Debug.Log("🔁 Atacar de nuevo");
-            enemy.ChangeState(enemy.attackState);
-        }
-        else if (distance <= enemy.detectionRange)
-        {
-            // Perseguir - LA ANIMACIÓN DE ANDAR SE ACTIVARÁ AUTOMÁTICAMENTE EN CHASESTATE
-            Debug.Log("🎯 Cambiar a Chase");
-            enemy.ChangeState(enemy.chaseState);
-        }
-        else
-        {
-            // Volver a patrullar
-            ReturnToPatrol();
+            PlayerHealth playerHealth = enemy.player.GetComponent<PlayerHealth>();
+            if (playerHealth != null)
+            {
+                playerHealth.TakeDamage(damageAmount);
+                Debug.Log($"✅ Enemigo hizo {damageAmount} de daño al jugador");
+            }
         }
     }
 
     private void ReturnToPatrol()
     {
-        Debug.Log("🚶 Volver a Patrol");
         enemy.ChangeState(enemy.patrolState);
     }
 
     public override void Exit()
     {
-        Debug.Log("Saliendo del estado de ataque");
+        Debug.Log("Enemigo deja de atacar");
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-

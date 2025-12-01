@@ -6,16 +6,16 @@ public class EnemyPatrolState : EnemyState
 
     public override void Enter()
     {
-        Debug.Log("🚶 Entrando en Patrol State");
+        //Debug.Log("🚶 Entrando en Patrol State");
 
         // Asegurar que tiene un punto objetivo
         if (enemy.targetPoint == null)
         {
             enemy.targetPoint = enemy.rightPoint;
-            Debug.Log("📍 TargetPoint era null, asignado a rightPoint");
+            //Debug.Log("📍 TargetPoint era null, asignado a rightPoint");
         }
 
-        Debug.Log($"🎯 Punto objetivo: {enemy.targetPoint.name}");
+        //Debug.Log($"🎯 Punto objetivo: {enemy.targetPoint.name}");
     }
 
     public override void Update()
@@ -30,7 +30,7 @@ public class EnemyPatrolState : EnemyState
         // Verificar si los puntos están asignados
         if (enemy.targetPoint == null)
         {
-            Debug.LogError("❌ targetPoint es null!");
+            //Debug.LogError("❌ targetPoint es null!");
             return;
         }
 
@@ -40,13 +40,13 @@ public class EnemyPatrolState : EnemyState
         // DEBUG cada 2 segundos
         if (Time.frameCount % 120 == 0)
         {
-            Debug.Log($"📏 Distancia a {enemy.targetPoint.name}: {distanceToTarget:F2}, Reach: {enemy.reachDistance}");
+            //Debug.Log($"📏 Distancia a {enemy.targetPoint.name}: {distanceToTarget:F2}, Reach: {enemy.reachDistance}");
         }
 
         // Si llegó al punto, cambiar al siguiente
         if (distanceToTarget <= enemy.reachDistance)
         {
-            Debug.Log($"✅ Llegó a {enemy.targetPoint.name} - Cambiando punto");
+            //Debug.Log($"✅ Llegó a {enemy.targetPoint.name} - Cambiando punto");
             enemy.SwitchTargetPoint();
         }
         else
@@ -58,7 +58,7 @@ public class EnemyPatrolState : EnemyState
 
     public override void Exit()
     {
-        Debug.Log("Saliendo de Patrol State");
+        //Debug.Log("Saliendo de Patrol State");
     }
 }
 

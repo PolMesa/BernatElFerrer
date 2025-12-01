@@ -12,5 +12,6 @@ public class CollectItem : MonoBehaviour
             Debug.Log("Objeto recogido! Puntos: " + score);
             Destroy(other.gameObject);
         }
+        
     }
 }

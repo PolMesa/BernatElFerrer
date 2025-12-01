@@ -1,5 +1,6 @@
 using UnityEngine;
-using TMPro; // si usas TextMeshPro para la UI
+using TMPro;
+using UnityEngine.UI; // Añade esta línea
 
 public class PlayerHealth : MonoBehaviour
 {
@@ -8,7 +9,8 @@ public class PlayerHealth : MonoBehaviour
     private int currentLives;
 
     [Header("UI")]
-    public TMP_Text livesText; // Asignar en el inspector
+    public TMP_Text livesText;
+    public Slider healthSlider; // Añade esta referencia al Slider
 
     [Header("Respawn")]
     public Vector3 respawnPosition;
@@ -21,35 +23,52 @@ public class PlayerHealth : MonoBehaviour
         UpdateUI();
 
         playerController = GetComponent<PlayerStateMachine>();
-        respawnPosition = transform.position; // posición inicial
+        respawnPosition = transform.position;
+
+        // Configurar el Slider si está asignado
+        if (healthSlider != null)
+        {
+            healthSlider.maxValue = maxLives;
+            healthSlider.value = currentLives;
+        }
     }
 
-    // Función para recibir daño
+    // Función para recibir daño (con porcentaje)
     public void TakeDamage(int damage)
     {
         currentLives -= damage;
         UpdateUI();
-        Debug.Log("Has recibido daño");
+        Debug.Log($"Has recibido {damage} de daño. Vidas restantes: {currentLives}");
+
         if (currentLives <= 0)
         {
             Die();
         }
         else
         {
-            // opcional: retroceso, animación de daño, sonido...
+            // Efectos de daño (opcional)
         }
+    }
+
+    // Nueva función para recibir daño por porcentaje
+    public void TakePercentageDamage(float percentage)
+    {
+        int damage = Mathf.CeilToInt(maxLives * percentage);
+        TakeDamage(damage);
+        Debug.Log($"Daño por {percentage * 100}%: {damage} vidas");
     }
 
     // Muerte del jugador
     private void Die()
     {
-        // Puedes hacer respawn o reiniciar nivel
+        Debug.Log("¡Jugador muerto!");
+
         if (playerController != null)
         {
-            playerController.Respawn(); // tu función existente
+            playerController.Respawn();
         }
 
-        currentLives = maxLives; // si quieres reiniciar las vidas al respawnear
+        currentLives = maxLives;
         UpdateUI();
     }
 
@@ -60,9 +79,14 @@ public class PlayerHealth : MonoBehaviour
         {
             livesText.text = "Vidas: " + currentLives;
         }
+
+        if (healthSlider != null)
+        {
+            healthSlider.value = currentLives;
+        }
     }
 
-    // Función para sumar vidas (por powerups, por ejemplo)
+    // Función para sumar vidas
     public void AddLives(int amount)
     {
         currentLives += amount;
@@ -77,4 +101,3 @@ public class PlayerHealth : MonoBehaviour
         return currentLives;
     }
 }
-

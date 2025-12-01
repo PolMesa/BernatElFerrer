@@ -1,30 +1,23 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 public class DeathZone : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.CompareTag("Player"))
+        if (other.CompareTag("Player"))
         {
-            // Aqu� defines lo que pasa al "morir"
-            // Por ejemplo, destruir al jugador:
-            collision.GetComponent<PlayerStateMachine>().Die();
+            Debug.Log("☠️ Jugador cayó en Death Zone");
 
-            // O reiniciar la escena:
-            // SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            PlayerStateMachine player = other.GetComponent<PlayerStateMachine>();
+            if (player != null)
+            {
+                player.Die(); // Esto ahora funciona
+            }
+            else
+            {
+                Debug.LogError("❌ No se encontró PlayerStateMachine en el jugador");
+            }
         }
     }
-    
-
 }
+

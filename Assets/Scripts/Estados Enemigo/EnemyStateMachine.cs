@@ -189,7 +189,15 @@ public class EnemyStateMachine : MonoBehaviour
             Gizmos.DrawLine(transform.position, player.position);
         }
     }
-    
+    public void OnAttackAnimationHit()
+    {
+        // Este método será llamado por Animation Event
+        if (currentState is EnemyAttackState attackState)
+        {
+            attackState.ApplyDamage();
+        }
+    }
+
 
 
 }
