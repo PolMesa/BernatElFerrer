@@ -9,6 +9,7 @@ TagManager:
   - Item
   - Checkpoint
   - Gema
+  - Puerta
   layers:
   - Default
   - TransparentFX

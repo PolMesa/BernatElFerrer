@@ -4,7 +4,7 @@ using UnityEngine.UI;
 public class EnemyHealth : MonoBehaviour
 {
     [Header("Health Settings")]
-    public float maxHealth = 100f;
+    public float maxHealth = 100f; // AJUSTA ESTO PARA CADA ENEMIGO
     private float currentHealth;
 
     [Header("UI Elements")]
@@ -32,15 +32,14 @@ public class EnemyHealth : MonoBehaviour
             healthSlider.minValue = 0;
         }
 
-        // BARRA SIEMPRE VISIBLE - Elimina esta línea que la ocultaba:
-        // if (healthBarCanvas != null) { healthBarCanvas.SetActive(false); }
-
-        // En su lugar, asegúrate de que esté activa:
+        // Barra siempre visible
         if (healthBarCanvas != null)
         {
-            healthBarCanvas.SetActive(true); // SIEMPRE ACTIVA
+            healthBarCanvas.SetActive(true);
             healthBarTransform = healthBarCanvas.transform;
         }
+
+        Debug.Log($"{gameObject.name} - Vida inicial: {currentHealth}/{maxHealth}");
     }
 
     void Update()
@@ -48,31 +47,17 @@ public class EnemyHealth : MonoBehaviour
         // Hacer que la barra de vida siga al enemigo
         if (healthBarCanvas != null && healthBarCanvas.activeSelf)
         {
-            // Posición: encima del enemigo + offset
             healthBarTransform.position = transform.position + healthBarOffset;
-
-            // Rotación: siempre mirando a la cámara (2D simplificado)
-            if (Camera.main != null)
-            {
-                // Para 2D, simplemente bloquea la rotación en Z
-                healthBarTransform.rotation = Quaternion.Euler(0, 0, 0);
-
-                // O si quieres que siempre mire a la cámara en 3D:
-                // healthBarTransform.LookAt(Camera.main.transform);
-                // healthBarTransform.Rotate(0, 180, 0); // Para que no esté al revés
-            }
+            healthBarTransform.rotation = Quaternion.Euler(0, 0, 0);
         }
     }
 
     public void TakeDamage(float damage)
     {
         currentHealth -= damage;
+        currentHealth = Mathf.Max(0, currentHealth); // No menos de 0
 
-        // ELIMINADO: Ya no necesitamos activar la barra aquí
-        // if (healthBarCanvas != null && !healthBarCanvas.activeSelf)
-        // {
-        //     healthBarCanvas.SetActive(true);
-        // }
+        Debug.Log($"{gameObject.name} recibió {damage} de daño. Vida: {currentHealth}/{maxHealth}");
 
         // Actualizar slider
         if (healthSlider != null)
@@ -80,9 +65,7 @@ public class EnemyHealth : MonoBehaviour
             healthSlider.value = currentHealth;
         }
 
-        Debug.Log($"{gameObject.name} recibió {damage} de daño. Vida: {currentHealth}/{maxHealth}");
-
-        // Feedback visual de daño
+        // Feedback visual
         StartCoroutine(DamageFlash());
 
         // Verificar muerte
@@ -97,12 +80,23 @@ public class EnemyHealth : MonoBehaviour
         SpriteRenderer sprite = GetComponent<SpriteRenderer>();
         if (sprite != null)
         {
-            Color original = sprite.color;
-            sprite.color = Color.red;
+            // Método profesional que no interfiere con otros sistemas
+            MaterialPropertyBlock mpb = new MaterialPropertyBlock();
+            sprite.GetPropertyBlock(mpb);
+
+            // Cambiar a rojo
+            mpb.SetColor("_Color", Color.red);
+            sprite.SetPropertyBlock(mpb);
+
             yield return new WaitForSeconds(0.1f);
-            sprite.color = original;
+
+            // Restaurar
+            mpb.SetColor("_Color", Color.white);
+            sprite.SetPropertyBlock(mpb);
         }
     }
+
+
 
     private void Die()
     {
@@ -137,11 +131,10 @@ public class EnemyHealth : MonoBehaviour
         Destroy(gameObject, destroyDelay);
     }
 
-    // Para daño por porcentaje
-    public void TakePercentageDamage(float percentage)
+    // NUEVO: Para saber cuántos golpes necesita
+    public int GetHitsToDie(float damagePerHit)
     {
-        float damage = maxHealth * percentage;
-        TakeDamage(damage);
+        return Mathf.CeilToInt(maxHealth / damagePerHit);
     }
 
     public float GetCurrentHealth() => currentHealth;

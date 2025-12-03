@@ -10,7 +10,7 @@ public class PlayerStateMachine : MonoBehaviour
 
     [Header("Attack Settings")]
     public float attackRange = 1f;
-    public float attackDamage = 25f;
+    public float attackDamage = 50f;
     public Transform attackPoint;
     public LayerMask enemyLayer;
     public float attackCooldown = 0.5f;
@@ -33,9 +33,6 @@ public class PlayerStateMachine : MonoBehaviour
     [HideInInspector] public Rigidbody2D rb2D;
     [HideInInspector] public Animator animator;
 
-    // -----------------------------
-    // Máquina de Estados
-    // -----------------------------
     public PlayerState currentState;
     public IdleState idleState;
     public WalkState walkState;
@@ -51,7 +48,6 @@ public class PlayerStateMachine : MonoBehaviour
         animator = GetComponent<Animator>();
         respawnPosition = transform.position;
 
-        // Inicializar estados
         idleState = new IdleState(this);
         walkState = new WalkState(this);
         jumpState = new JumpState(this);
@@ -65,7 +61,6 @@ public class PlayerStateMachine : MonoBehaviour
     {
         moveInput = Input.GetAxisRaw("Horizontal");
 
-        // Detectar ataque con click izquierdo
         if (Input.GetMouseButtonDown(0) && Time.time > lastAttackTime + attackCooldown && !(currentState is AttackState))
         {
             ChangeState(attackState);
@@ -73,7 +68,6 @@ public class PlayerStateMachine : MonoBehaviour
 
         currentState?.Update();
 
-        // Animaciones básicas (excepto durante ataque)
         if (!(currentState is AttackState))
         {
             animator.SetFloat("Speed", Mathf.Abs(moveInput));
@@ -81,7 +75,6 @@ public class PlayerStateMachine : MonoBehaviour
             animator.SetBool("IsGrounded", isGrounded);
         }
 
-        // Flip del sprite (excepto durante ataque)
         if (moveInput != 0 && !(currentState is AttackState))
             transform.localScale = new Vector3(Mathf.Sign(moveInput), 1, 1);
     }
@@ -91,9 +84,6 @@ public class PlayerStateMachine : MonoBehaviour
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, checkRadius, groundLayer);
     }
 
-    // -----------------------------
-    // Funciones para los estados
-    // -----------------------------
     public void MoveHorizontal(float input)
     {
         rb2D.linearVelocity = new Vector2(input * moveSpeed, rb2D.linearVelocity.y);
@@ -115,52 +105,53 @@ public class PlayerStateMachine : MonoBehaviour
 
     public float GetMoveInput() => moveInput;
 
-    // -----------------------------
-    // ANIMATION EVENT: Frame de golpe
-    // -----------------------------
     public void OnAttackAnimationHit()
     {
-        Debug.Log("🎯 ANIMATION EVENT: Frame de golpe del jugador");
         PerformAttack();
     }
 
-    // -----------------------------
-    // ANIMATION EVENT: Fin de animación
-    // -----------------------------
     public void OnAttackAnimationEnd()
     {
-        Debug.Log("🏁 Animación de ataque terminada");
-        // El AttackState manejará el cambio de estado
     }
 
-    // -----------------------------
-    // Función para realizar el ataque
-    // -----------------------------
     public void PerformAttack()
     {
-        Debug.Log("🗡️ Jugador realiza ataque!");
         lastAttackTime = Time.time;
 
-        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(
-            attackPoint.position,
-            attackRange,
-            enemyLayer
-        );
+        Collider2D[] allColliders = Physics2D.OverlapCircleAll(attackPoint.position, attackRange);
 
-        foreach (Collider2D enemy in hitEnemies)
+        bool hitEnemy = false;
+
+        foreach (Collider2D collider in allColliders)
         {
-            EnemyHealth enemyHealth = enemy.GetComponent<EnemyHealth>();
+            EnemyHealth enemyHealth = collider.GetComponent<EnemyHealth>();
+            if (enemyHealth == null)
+            {
+                enemyHealth = collider.GetComponentInParent<EnemyHealth>();
+            }
+
             if (enemyHealth != null)
             {
-                enemyHealth.TakePercentageDamage(attackDamage / 100f);
-                Debug.Log($"✅ Golpeó a {enemy.name} - Daño: {attackDamage}%");
+                enemyHealth.TakeDamage(attackDamage);
+                hitEnemy = true;
+                StartCoroutine(FlashEnemy(collider.gameObject));
+                break;
             }
         }
     }
 
-    // -----------------------------
-    // Debug: Ver rango de ataque
-    // -----------------------------
+    private System.Collections.IEnumerator FlashEnemy(GameObject enemy)
+    {
+        SpriteRenderer sprite = enemy.GetComponent<SpriteRenderer>();
+        if (sprite != null)
+        {
+            Color original = sprite.color;
+            sprite.color = Color.white;
+            yield return new WaitForSeconds(0.1f);
+            sprite.color = original;
+        }
+    }
+
     void OnDrawGizmosSelected()
     {
         if (attackPoint != null)
@@ -170,9 +161,6 @@ public class PlayerStateMachine : MonoBehaviour
         }
     }
 
-    // -----------------------------
-    // Funciones de Score / Items
-    // -----------------------------
     void UpdateScore()
     {
         scoreText.text = "Score: " + score;
@@ -180,7 +168,6 @@ public class PlayerStateMachine : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        // Recolectables
         if (other.CompareTag("Item"))
         {
             score++;
@@ -188,59 +175,94 @@ public class PlayerStateMachine : MonoBehaviour
             Destroy(other.gameObject);
         }
 
-        // Checkpoints
         if (other.CompareTag("Checkpoint"))
         {
             if (CheckpointManager.Instance != null)
                 CheckpointManager.Instance.ActivateCheckpoint(other.transform.position);
         }
 
-         if (other.CompareTag("Gema"))
-         {
+        if (other.CompareTag("Gema"))
+        {
             Destroy(other.gameObject);
             gema.gameObject.SetActive(true);
-         }
+            GameObject Puerta = GameObject.FindWithTag("Puerta");
+            if (Puerta != null)
+            {
+                Destroy(Puerta);
+            }
+        }
     }
 
-    // -----------------------------
-    // Respawn / Muerte
-    // -----------------------------
+    // ========== RETROCESO FUNCIONAL ==========
     public void Die()
     {
-        Debug.Log("💀 Jugador muerto - Llamando a Respawn");
         Respawn();
     }
 
+    public void ApplyDamage()
+    {
+        // 1. RETROCESO INMEDIATO
+        if (rb2D != null)
+        {
+            // Dirección opuesta a donde mira
+            float direction = -Mathf.Sign(transform.localScale.x);
+
+            // Fuerza del retroceso
+            float knockbackX = direction * 15f;
+            float knockbackY = 8f;
+
+            // Aplicar velocidad directamente
+            rb2D.linearVelocity = new Vector2(knockbackX, knockbackY);
+        }
+
+        // 2. DAÑO
+        PlayerHealth playerHealth = GetComponent<PlayerHealth>();
+        if (playerHealth != null)
+        {
+            playerHealth.TakeDamage(1);
+        }
+    }
+    public void ApplyKnockbackFromEnemy(Vector2 enemyPosition)
+    {
+        if (rb2D == null) return;
+
+        // Calcular dirección AWAY del enemigo
+        Vector2 knockbackDirection = ((Vector2)transform.position - enemyPosition).normalized;
+
+        // Añadir un poco de fuerza hacia arriba
+        knockbackDirection.y = Mathf.Max(knockbackDirection.y, 0.3f);
+        knockbackDirection.Normalize();
+
+        // Aplicar fuerza
+        float knockbackForce = 20f;
+        rb2D.linearVelocity = knockbackDirection * knockbackForce;
+
+        Debug.Log($"💥 Retroceso desde enemigo: {knockbackDirection * knockbackForce}");
+    }
+
+
     public void Respawn()
     {
+        // Aplicar daño/retroceso
+        ApplyDamage();
+
+        // Teletransportar
         Vector3 targetPos = respawnPosition;
 
         if (CheckpointManager.Instance != null && CheckpointManager.Instance.HasCheckpoint())
         {
             targetPos = CheckpointManager.Instance.GetCurrentCheckpoint();
-            Debug.Log("Jugador respawneado en checkpoint: " + targetPos);
-        }
-        else
-        {
-            Debug.Log("Jugador respawneado en posición inicial");
         }
 
-        // Teletransportar
         transform.position = targetPos;
 
-        // Reiniciar físicas
-        if (rb2D != null)
-        {
-            rb2D.linearVelocity = Vector2.zero;
-            rb2D.angularVelocity = 0f;
-        }
-
-        // Resetear estado a Idle
+        // Resetear estado
         ChangeState(idleState);
-
-
-
     }
-    
 }
+
+
+
+
+
 

@@ -1,136 +1,115 @@
 fileFormatVersion: 2
-guid: 7ff0f125515b472419cc5e11a1a1dca1
+guid: bd7c16a4fcd7648478741f12f933dd69
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5304242214340668272
-    second: Deathzorro_0
+      213: -6239409582467305450
+    second: sprite-256px-36 (12) (1)_0
   - first:
-      213: 3832530354098004349
-    second: Deathzorro_1
+      213: -5092669960196192543
+    second: sprite-256px-36 (12) (1)_1
   - first:
-      213: 4591846274433501790
-    second: Deathzorro_2
+      213: 4677168951877169675
+    second: sprite-256px-36 (12) (1)_2
   - first:
-      213: 25295100292339757
-    second: Deathzorro_3
+      213: -955664896458118830
+    second: sprite-256px-36 (12) (1)_3
   - first:
-      213: -998731209957082361
-    second: Deathzorro_4
+      213: 3989853978356285853
+    second: sprite-256px-36 (12) (1)_4
   - first:
-      213: -675185381299869056
-    second: Deathzorro_5
+      213: -1416650491373262055
+    second: sprite-256px-36 (12) (1)_5
   - first:
-      213: 7655852540675702843
-    second: Deathzorro_6
+      213: -444734135410459293
+    second: sprite-256px-36 (12) (1)_6
   - first:
-      213: -7762636760649532704
-    second: Deathzorro_7
+      213: 2925174171333730002
+    second: sprite-256px-36 (12) (1)_7
   - first:
-      213: -8436216563933009865
-    second: Deathzorro_8
+      213: 4076416087654557300
+    second: sprite-256px-36 (12) (1)_8
   - first:
-      213: -5263825529785035761
-    second: Deathzorro_9
+      213: 7065093876069695404
+    second: sprite-256px-36 (12) (1)_9
   - first:
-      213: -6177838923250719626
-    second: Deathzorro_10
+      213: -8316115860745243848
+    second: sprite-256px-36 (12) (1)_10
   - first:
-      213: 5073642065721825922
-    second: Deathzorro_11
+      213: 3711678778709022286
+    second: sprite-256px-36 (12) (1)_11
   - first:
-      213: 7945863193394094189
-    second: Deathzorro_12
+      213: -4273445272317766131
+    second: sprite-256px-36 (12) (1)_12
   - first:
-      213: 8121755738336610666
-    second: Deathzorro_13
+      213: 5220295596161082305
+    second: sprite-256px-36 (12) (1)_13
   - first:
-      213: 8849662707819563944
-    second: Deathzorro_14
+      213: 5494199628464509345
+    second: sprite-256px-36 (12) (1)_14
   - first:
-      213: 5196234814187333059
-    second: Deathzorro_15
+      213: -551752859709999685
+    second: sprite-256px-36 (12) (1)_15
   - first:
-      213: 8096638498516209685
-    second: Deathzorro_16
+      213: 6767804667378577882
+    second: sprite-256px-36 (12) (1)_16
   - first:
-      213: -6475636492179636296
-    second: Deathzorro_17
+      213: 3747830885262070566
+    second: sprite-256px-36 (12) (1)_17
   - first:
-      213: -7646856336648619368
-    second: Deathzorro_18
+      213: 8679669029996208355
+    second: sprite-256px-36 (12) (1)_18
   - first:
-      213: 3691352544958769080
-    second: Deathzorro_19
+      213: -1402150739363821776
+    second: sprite-256px-36 (12) (1)_19
   - first:
-      213: -8056336378324637711
-    second: Deathzorro_20
+      213: -581289951859850459
+    second: sprite-256px-36 (12) (1)_20
   - first:
-      213: -8277974212868319572
-    second: Deathzorro_21
+      213: -5714322568469841125
+    second: sprite-256px-36 (12) (1)_21
   - first:
-      213: 6677080845219511276
-    second: Deathzorro_22
+      213: -3683651626753096287
+    second: sprite-256px-36 (12) (1)_22
   - first:
-      213: -7165996047354962153
-    second: Deathzorro_23
+      213: 1416225012845972961
+    second: sprite-256px-36 (12) (1)_23
   - first:
-      213: -336943804943103004
-    second: Deathzorro_24
+      213: -5993289447196911924
+    second: sprite-256px-36 (12) (1)_24
   - first:
-      213: -2921789489050943822
-    second: Deathzorro_25
+      213: 4072774531722506422
+    second: sprite-256px-36 (12) (1)_25
   - first:
-      213: 1757819642520157849
-    second: Deathzorro_26
+      213: -6607912885885289276
+    second: sprite-256px-36 (12) (1)_26
   - first:
-      213: -8555483864990126073
-    second: Deathzorro_27
+      213: -4079181504408024453
+    second: sprite-256px-36 (12) (1)_27
   - first:
-      213: -2311632824876307813
-    second: Deathzorro_28
+      213: 8786201310830173931
+    second: sprite-256px-36 (12) (1)_28
   - first:
-      213: 2394383537841937097
-    second: Deathzorro_29
+      213: -4150209857484814719
+    second: sprite-256px-36 (12) (1)_29
   - first:
-      213: -2271914819593022187
-    second: Deathzorro_30
+      213: 8655542826079214243
+    second: sprite-256px-36 (12) (1)_30
   - first:
-      213: -6051836628598601849
-    second: Deathzorro_31
+      213: -5978065297807812720
+    second: sprite-256px-36 (12) (1)_31
   - first:
-      213: 274328997355463463
-    second: Deathzorro_32
+      213: -6611702662169594554
+    second: sprite-256px-36 (12) (1)_32
   - first:
-      213: -2285989141120090451
-    second: Deathzorro_33
+      213: -8858958974337711485
+    second: sprite-256px-36 (12) (1)_33
   - first:
-      213: 6024207345846693475
-    second: Deathzorro_34
+      213: -2068795409909894303
+    second: sprite-256px-36 (12) (1)_34
   - first:
-      213: -9205326345036195817
-    second: Deathzorro_35
-  - first:
-      213: 4521408507356997595
-    second: Deathzorro_36
-  - first:
-      213: -5808039534850612285
-    second: Deathzorro_37
-  - first:
-      213: 8905765235504113360
-    second: Deathzorro_38
-  - first:
-      213: 7638323994321059082
-    second: Deathzorro_39
-  - first:
-      213: -8098634887874918038
-    second: Deathzorro_40
-  - first:
-      213: -8972339513150688859
-    second: Deathzorro_41
-  - first:
-      213: -584692039869319173
-    second: Deathzorro_42
+      213: 7123923803251371832
+    second: sprite-256px-36 (12) (1)_35
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -239,793 +218,793 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Deathzorro_0
+      name: sprite-256px-36 (12) (1)_0
       rect:
         serializedVersion: 2
-        x: 76
-        y: 1778
-        width: 262
-        height: 261
+        x: 83
+        y: 1832
+        width: 266
+        height: 264
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 07b286cd0347c9940800000000000000
-      internalID: 5304242214340668272
+      spriteID: 6103ed4ea0a2969a0800000000000000
+      internalID: -6239409582467305450
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Deathzorro_1
+      name: sprite-256px-36 (12) (1)_1
       rect:
         serializedVersion: 2
-        x: 491
-        y: 1778
-        width: 265
-        height: 259
+        x: 517
+        y: 1832
+        width: 267
+        height: 264
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d71e9ea2d02ef2530800000000000000
-      internalID: 3832530354098004349
+      spriteID: 1e6043047a33359b0800000000000000
+      internalID: -5092669960196192543
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Deathzorro_2
+      name: sprite-256px-36 (12) (1)_2
       rect:
         serializedVersion: 2
-        x: 905
-        y: 1778
-        width: 265
-        height: 259
+        x: 951
+        y: 1831
+        width: 269
+        height: 265
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e5a4fc2abd389bf30800000000000000
-      internalID: 4591846274433501790
+      spriteID: b02ff1b8164a8e040800000000000000
+      internalID: 4677168951877169675
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Deathzorro_3
+      name: sprite-256px-36 (12) (1)_3
       rect:
         serializedVersion: 2
-        x: 1321
-        y: 1777
-        width: 268
-        height: 259
+        x: 1385
+        y: 1831
+        width: 269
+        height: 265
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d289b7b72cdd95000800000000000000
-      internalID: 25295100292339757
+      spriteID: 259ad4a07dbccb2f0800000000000000
+      internalID: -955664896458118830
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Deathzorro_4
+      name: sprite-256px-36 (12) (1)_4
       rect:
         serializedVersion: 2
-        x: 1740
-        y: 1776
-        width: 275
-        height: 259
+        x: 1818
+        y: 1831
+        width: 272
+        height: 265
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 70b796c814bc322f0800000000000000
-      internalID: -998731209957082361
+      spriteID: d910b9ddd0fce5730800000000000000
+      internalID: 3989853978356285853
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Deathzorro_5
+      name: sprite-256px-36 (12) (1)_5
       rect:
         serializedVersion: 2
-        x: 2154
-        y: 1777
-        width: 275
-        height: 258
+        x: 2252
+        y: 1831
+        width: 272
+        height: 265
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 08aa516197241a6f0800000000000000
-      internalID: -675185381299869056
+      spriteID: 91b60d242eb075ce0800000000000000
+      internalID: -1416650491373262055
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Deathzorro_6
+      name: sprite-256px-36 (12) (1)_6
       rect:
         serializedVersion: 2
-        x: 85
-        y: 1430
-        width: 283
-        height: 257
+        x: 81
+        y: 1474
+        width: 286
+        height: 254
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b304fb3c25d0f3a60800000000000000
-      internalID: 7655852540675702843
+      spriteID: 36d7e5ff8acf3d9f0800000000000000
+      internalID: -444734135410459293
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Deathzorro_7
+      name: sprite-256px-36 (12) (1)_7
       rect:
         serializedVersion: 2
-        x: 494
-        y: 1429
-        width: 287
-        height: 261
+        x: 515
+        y: 1474
+        width: 309
+        height: 230
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0ea78119ef2954490800000000000000
-      internalID: -7762636760649532704
+      spriteID: 2de9e7c196e489820800000000000000
+      internalID: 2925174171333730002
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Deathzorro_8
+      name: sprite-256px-36 (12) (1)_8
       rect:
         serializedVersion: 2
-        x: 908
-        y: 1429
-        width: 287
-        height: 261
+        x: 949
+        y: 1474
+        width: 309
+        height: 230
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 738a18a6bb98cea80800000000000000
-      internalID: -8436216563933009865
+      spriteID: 476665d75d6529830800000000000000
+      internalID: 4076416087654557300
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Deathzorro_9
+      name: sprite-256px-36 (12) (1)_9
       rect:
         serializedVersion: 2
-        x: 1318
-        y: 1429
-        width: 290
-        height: 262
+        x: 1388
+        y: 1474
+        width: 326
+        height: 241
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f04d781d19223f6b0800000000000000
-      internalID: -5263825529785035761
+      spriteID: caffbe3a2714c0260800000000000000
+      internalID: 7065093876069695404
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Deathzorro_10
+      name: sprite-256px-36 (12) (1)_10
       rect:
         serializedVersion: 2
-        x: 1733
-        y: 1429
-        width: 289
-        height: 262
+        x: 1824
+        y: 1474
+        width: 323
+        height: 241
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6742f0c1b38e34aa0800000000000000
-      internalID: -6177838923250719626
+      spriteID: 833b9417fa8379c80800000000000000
+      internalID: -8316115860745243848
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Deathzorro_11
+      name: sprite-256px-36 (12) (1)_11
       rect:
         serializedVersion: 2
-        x: 2144
-        y: 1429
-        width: 297
-        height: 262
+        x: 2258
+        y: 1474
+        width: 321
+        height: 242
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 28a14d4d392396640800000000000000
-      internalID: 5073642065721825922
+      spriteID: e469e451f28828330800000000000000
+      internalID: 3711678778709022286
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Deathzorro_12
+      name: sprite-256px-36 (12) (1)_12
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 1117
+        width: 320
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d065d60aa2ca1b4c0800000000000000
+      internalID: -4273445272317766131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-256px-36 (12) (1)_13
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 1118
+        width: 320
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c3a7b7bf27327840800000000000000
+      internalID: 5220295596161082305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-256px-36 (12) (1)_14
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 1118
+        width: 320
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a1d5bbd3715f3c40800000000000000
+      internalID: 5494199628464509345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-256px-36 (12) (1)_15
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 1117
+        width: 310
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb5fd2982b7c758f0800000000000000
+      internalID: -551752859709999685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-256px-36 (12) (1)_16
+      rect:
+        serializedVersion: 2
+        x: 1819
+        y: 1117
+        width: 301
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad1b454dc721ced50800000000000000
+      internalID: 6767804667378577882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-256px-36 (12) (1)_17
+      rect:
+        serializedVersion: 2
+        x: 2241
+        y: 1118
+        width: 244
+        height: 311
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62398425558f20430800000000000000
+      internalID: 3747830885262070566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-256px-36 (12) (1)_18
       rect:
         serializedVersion: 2
         x: 71
-        y: 1082
-        width: 300
-        height: 261
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d602b14b970654e60800000000000000
-      internalID: 7945863193394094189
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Deathzorro_13
-      rect:
-        serializedVersion: 2
-        x: 486
-        y: 1082
-        width: 299
-        height: 261
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a694b0820d546b070800000000000000
-      internalID: 8121755738336610666
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Deathzorro_14
-      rect:
-        serializedVersion: 2
-        x: 890
-        y: 1082
-        width: 303
-        height: 261
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8ab4b91685150da70800000000000000
-      internalID: 8849662707819563944
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Deathzorro_16
-      rect:
-        serializedVersion: 2
-        x: 1286
-        y: 1083
-        width: 297
-        height: 267
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5109fca01d90d5070800000000000000
-      internalID: 8096638498516209685
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Deathzorro_17
-      rect:
-        serializedVersion: 2
-        x: 1698
-        y: 1084
-        width: 282
-        height: 269
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8bf73157beae126a0800000000000000
-      internalID: -6475636492179636296
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Deathzorro_18
-      rect:
-        serializedVersion: 2
-        x: 2113
-        y: 1084
-        width: 275
-        height: 271
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 89a3d953da8e0e590800000000000000
-      internalID: -7646856336648619368
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Deathzorro_25
-      rect:
-        serializedVersion: 2
-        x: 45
-        y: 737
-        width: 268
-        height: 271
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2bef5a4a0f7b377d0800000000000000
-      internalID: -2921789489050943822
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Deathzorro_26
-      rect:
-        serializedVersion: 2
-        x: 459
-        y: 737
-        width: 268
-        height: 271
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 99e3e9bc6a7056810800000000000000
-      internalID: 1757819642520157849
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Deathzorro_27
-      rect:
-        serializedVersion: 2
-        x: 884
-        y: 737
-        width: 224
-        height: 297
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7007da1f0c0d44980800000000000000
-      internalID: -8555483864990126073
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Deathzorro_28
-      rect:
-        serializedVersion: 2
-        x: 1295
-        y: 737
-        width: 233
-        height: 302
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b9a6d1e713e6befd0800000000000000
-      internalID: -2311632824876307813
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Deathzorro_29
-      rect:
-        serializedVersion: 2
-        x: 1700
-        y: 737
-        width: 246
-        height: 304
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9ca9c15442f8a3120800000000000000
-      internalID: 2394383537841937097
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Deathzorro_30
-      rect:
-        serializedVersion: 2
-        x: 2102
-        y: 731
-        width: 263
+        y: 761
+        width: 244
         height: 311
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 515563a32898870e0800000000000000
-      internalID: -2271914819593022187
+      spriteID: 3e022e4fef0647870800000000000000
+      internalID: 8679669029996208355
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Deathzorro_31
+      name: sprite-256px-36 (12) (1)_19
       rect:
         serializedVersion: 2
-        x: 27
-        y: 381
-        width: 270
-        height: 314
+        x: 488
+        y: 761
+        width: 257
+        height: 293
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 787cea976ae830ca0800000000000000
-      internalID: -6051836628598601849
+      spriteID: 0370baad45f8a8ce0800000000000000
+      internalID: -1402150739363821776
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Deathzorro_32
+      name: sprite-256px-36 (12) (1)_20
       rect:
         serializedVersion: 2
-        x: 436
-        y: 382
-        width: 275
-        height: 311
+        x: 920
+        y: 761
+        width: 258
+        height: 292
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 72326f605cc9ec300800000000000000
-      internalID: 274328997355463463
+      spriteID: 523c3eb5ed7dee7f0800000000000000
+      internalID: -581289951859850459
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Deathzorro_33
+      name: sprite-256px-36 (12) (1)_21
       rect:
         serializedVersion: 2
-        x: 845
-        y: 384
-        width: 280
-        height: 307
+        x: 1353
+        y: 761
+        width: 258
+        height: 291
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: daef223ecf88640e0800000000000000
-      internalID: -2285989141120090451
+      spriteID: b1b7b5656e5a2b0b0800000000000000
+      internalID: -5714322568469841125
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Deathzorro_34
+      name: sprite-256px-36 (12) (1)_22
       rect:
         serializedVersion: 2
-        x: 1255
-        y: 387
-        width: 286
-        height: 303
+        x: 1787
+        y: 761
+        width: 258
+        height: 291
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 36ead76d9a84a9350800000000000000
-      internalID: 6024207345846693475
+      spriteID: 1a5871fbc5a01ecc0800000000000000
+      internalID: -3683651626753096287
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Deathzorro_35
+      name: sprite-256px-36 (12) (1)_23
       rect:
         serializedVersion: 2
-        x: 1659
-        y: 401
-        width: 293
-        height: 285
+        x: 2220
+        y: 761
+        width: 259
+        height: 290
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 718929a067c104080800000000000000
-      internalID: -9205326345036195817
+      spriteID: 1ed05bc452177a310800000000000000
+      internalID: 1416225012845972961
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Deathzorro_36
+      name: sprite-256px-36 (12) (1)_24
       rect:
         serializedVersion: 2
-        x: 2072
-        y: 402
-        width: 293
-        height: 282
+        x: 50
+        y: 404
+        width: 259
+        height: 290
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bd7617df4154fbe30800000000000000
-      internalID: 4521408507356997595
+      spriteID: cc61bb7600f83dca0800000000000000
+      internalID: -5993289447196911924
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Deathzorro_37
+      name: sprite-256px-36 (12) (1)_25
       rect:
         serializedVersion: 2
-        x: 2
-        y: 56
-        width: 293
-        height: 281
+        x: 496
+        y: 404
+        width: 255
+        height: 301
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3c3edcbb0d2b56fa0800000000000000
-      internalID: -5808039534850612285
+      spriteID: 6b0f39dabd6658830800000000000000
+      internalID: 4072774531722506422
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Deathzorro_38
+      name: sprite-256px-36 (12) (1)_26
       rect:
         serializedVersion: 2
-        x: 416
-        y: 56
-        width: 293
-        height: 281
+        x: 930
+        y: 404
+        width: 255
+        height: 301
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0d6ee330c42a79b70800000000000000
-      internalID: 8905765235504113360
+      spriteID: 4ccb4129d3afb44a0800000000000000
+      internalID: -6607912885885289276
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Deathzorro_39
+      name: sprite-256px-36 (12) (1)_27
       rect:
         serializedVersion: 2
-        x: 829
-        y: 56
-        width: 292
-        height: 280
+        x: 1389
+        y: 403
+        width: 348
+        height: 226
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a0d79d80437c00a60800000000000000
-      internalID: 7638323994321059082
+      spriteID: b7a8a6fb806d367c0800000000000000
+      internalID: -4079181504408024453
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Deathzorro_40
+      name: sprite-256px-36 (12) (1)_28
       rect:
         serializedVersion: 2
-        x: 1242
-        y: 58
-        width: 292
-        height: 276
+        x: 1824
+        y: 403
+        width: 342
+        height: 220
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a6941a65a7edb9f80800000000000000
-      internalID: -8098634887874918038
+      spriteID: bee9a197a8bdee970800000000000000
+      internalID: 8786201310830173931
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Deathzorro_41
+      name: sprite-256px-36 (12) (1)_29
       rect:
         serializedVersion: 2
-        x: 1655
-        y: 57
-        width: 291
-        height: 273
+        x: 2259
+        y: 403
+        width: 336
+        height: 223
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5a1b37210c8db7380800000000000000
-      internalID: -8972339513150688859
+      spriteID: 1860b459f1e7766c0800000000000000
+      internalID: -4150209857484814719
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Deathzorro_42
+      name: sprite-256px-36 (12) (1)_30
       rect:
         serializedVersion: 2
-        x: 2069
-        y: 61
-        width: 296
-        height: 261
+        x: 90
+        y: 46
+        width: 333
+        height: 223
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bf7379400b1c2e7f0800000000000000
-      internalID: -584692039869319173
+      spriteID: 3aad1ae575aae1870800000000000000
+      internalID: 8655542826079214243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-256px-36 (12) (1)_31
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 46
+        width: 329
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0975318e845a90da0800000000000000
+      internalID: -5978065297807812720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-256px-36 (12) (1)_32
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 46
+        width: 324
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64570e485738e34a0800000000000000
+      internalID: -6611702662169594554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-256px-36 (12) (1)_33
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 46
+        width: 324
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38287d6efb7ae0580800000000000000
+      internalID: -8858958974337711485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-256px-36 (12) (1)_34
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 47
+        width: 323
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 163bc5f19892a43e0800000000000000
+      internalID: -2068795409909894303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-256px-36 (12) (1)_35
+      rect:
+        serializedVersion: 2
+        x: 2256
+        y: 46
+        width: 323
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83f6fb374f24dd260800000000000000
+      internalID: 7123923803251371832
       vertices: []
       indices: 
       edges: []
@@ -1034,7 +1013,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 8e6ee4022f8c6664399e11ee821b6986
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -1044,49 +1023,42 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Deathzorro_0: 5304242214340668272
-      Deathzorro_1: 3832530354098004349
-      Deathzorro_10: -6177838923250719626
-      Deathzorro_11: 5073642065721825922
-      Deathzorro_12: 7945863193394094189
-      Deathzorro_13: 8121755738336610666
-      Deathzorro_14: 8849662707819563944
-      Deathzorro_15: 5196234814187333059
-      Deathzorro_16: 8096638498516209685
-      Deathzorro_17: -6475636492179636296
-      Deathzorro_18: -7646856336648619368
-      Deathzorro_19: 3691352544958769080
-      Deathzorro_2: 4591846274433501790
-      Deathzorro_20: -8056336378324637711
-      Deathzorro_21: -8277974212868319572
-      Deathzorro_22: 6677080845219511276
-      Deathzorro_23: -7165996047354962153
-      Deathzorro_24: -336943804943103004
-      Deathzorro_25: -2921789489050943822
-      Deathzorro_26: 1757819642520157849
-      Deathzorro_27: -8555483864990126073
-      Deathzorro_28: -2311632824876307813
-      Deathzorro_29: 2394383537841937097
-      Deathzorro_3: 25295100292339757
-      Deathzorro_30: -2271914819593022187
-      Deathzorro_31: -6051836628598601849
-      Deathzorro_32: 274328997355463463
-      Deathzorro_33: -2285989141120090451
-      Deathzorro_34: 6024207345846693475
-      Deathzorro_35: -9205326345036195817
-      Deathzorro_36: 4521408507356997595
-      Deathzorro_37: -5808039534850612285
-      Deathzorro_38: 8905765235504113360
-      Deathzorro_39: 7638323994321059082
-      Deathzorro_4: -998731209957082361
-      Deathzorro_40: -8098634887874918038
-      Deathzorro_41: -8972339513150688859
-      Deathzorro_42: -584692039869319173
-      Deathzorro_5: -675185381299869056
-      Deathzorro_6: 7655852540675702843
-      Deathzorro_7: -7762636760649532704
-      Deathzorro_8: -8436216563933009865
-      Deathzorro_9: -5263825529785035761
+      sprite-256px-36 (12) (1)_0: -6239409582467305450
+      sprite-256px-36 (12) (1)_1: -5092669960196192543
+      sprite-256px-36 (12) (1)_10: -8316115860745243848
+      sprite-256px-36 (12) (1)_11: 3711678778709022286
+      sprite-256px-36 (12) (1)_12: -4273445272317766131
+      sprite-256px-36 (12) (1)_13: 5220295596161082305
+      sprite-256px-36 (12) (1)_14: 5494199628464509345
+      sprite-256px-36 (12) (1)_15: -551752859709999685
+      sprite-256px-36 (12) (1)_16: 6767804667378577882
+      sprite-256px-36 (12) (1)_17: 3747830885262070566
+      sprite-256px-36 (12) (1)_18: 8679669029996208355
+      sprite-256px-36 (12) (1)_19: -1402150739363821776
+      sprite-256px-36 (12) (1)_2: 4677168951877169675
+      sprite-256px-36 (12) (1)_20: -581289951859850459
+      sprite-256px-36 (12) (1)_21: -5714322568469841125
+      sprite-256px-36 (12) (1)_22: -3683651626753096287
+      sprite-256px-36 (12) (1)_23: 1416225012845972961
+      sprite-256px-36 (12) (1)_24: -5993289447196911924
+      sprite-256px-36 (12) (1)_25: 4072774531722506422
+      sprite-256px-36 (12) (1)_26: -6607912885885289276
+      sprite-256px-36 (12) (1)_27: -4079181504408024453
+      sprite-256px-36 (12) (1)_28: 8786201310830173931
+      sprite-256px-36 (12) (1)_29: -4150209857484814719
+      sprite-256px-36 (12) (1)_3: -955664896458118830
+      sprite-256px-36 (12) (1)_30: 8655542826079214243
+      sprite-256px-36 (12) (1)_31: -5978065297807812720
+      sprite-256px-36 (12) (1)_32: -6611702662169594554
+      sprite-256px-36 (12) (1)_33: -8858958974337711485
+      sprite-256px-36 (12) (1)_34: -2068795409909894303
+      sprite-256px-36 (12) (1)_35: 7123923803251371832
+      sprite-256px-36 (12) (1)_4: 3989853978356285853
+      sprite-256px-36 (12) (1)_5: -1416650491373262055
+      sprite-256px-36 (12) (1)_6: -444734135410459293
+      sprite-256px-36 (12) (1)_7: 2925174171333730002
+      sprite-256px-36 (12) (1)_8: 4076416087654557300
+      sprite-256px-36 (12) (1)_9: 7065093876069695404
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

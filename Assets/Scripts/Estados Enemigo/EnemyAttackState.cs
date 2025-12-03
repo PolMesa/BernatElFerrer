@@ -83,6 +83,29 @@ public class EnemyAttackState : EnemyState
             }
         }
     }
+    private void ExecuteAttack()
+    {
+        enemy.animator.Play("Ataque");
+
+        if (enemy.player != null && Vector2.Distance(enemy.transform.position, enemy.player.position) <= enemy.attackRange)
+        {
+            // Aplicar daño
+            PlayerHealth playerHealth = enemy.player.GetComponent<PlayerHealth>();
+            if (playerHealth != null)
+            {
+                playerHealth.TakeDamage(damageAmount);
+            }
+
+            // Aplicar retroceso
+            PlayerStateMachine playerMachine = enemy.player.GetComponent<PlayerStateMachine>();
+            if (playerMachine != null)
+            {
+                // Solo retroceso, no daño extra
+                playerMachine.ApplyKnockbackFromEnemy(enemy.transform.position);
+            }
+        }
+    }
+
 
     private void ReturnToPatrol()
     {

@@ -12,6 +12,7 @@ public class DeathZone : MonoBehaviour
             if (player != null)
             {
                 player.Die(); // Esto ahora funciona
+
             }
             else
             {

@@ -1,115 +1,115 @@
 fileFormatVersion: 2
-guid: d1c165f0e1edd784ab79f6a0a17a2802
+guid: 7bff6e4c118dbd541864a48b337ae9d1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7987671292213063267
-    second: sprite-256px-36 (9)_0
+      213: 2821199803406048772
+    second: BossWalk_0
   - first:
-      213: 3840565329805671472
-    second: sprite-256px-36 (9)_1
+      213: 2249010996370531119
+    second: BossWalk_1
   - first:
-      213: 221280478432224453
-    second: sprite-256px-36 (9)_2
+      213: 717524288187874473
+    second: BossWalk_2
   - first:
-      213: 6491544982494817346
-    second: sprite-256px-36 (9)_3
+      213: 6936732108251524000
+    second: BossWalk_3
   - first:
-      213: 2261736389285418938
-    second: sprite-256px-36 (9)_4
+      213: -3359058401844516423
+    second: BossWalk_4
   - first:
-      213: -394397108086482519
-    second: sprite-256px-36 (9)_5
+      213: 8228861154188778427
+    second: BossWalk_5
   - first:
-      213: 3445792307467652646
-    second: sprite-256px-36 (9)_6
+      213: 3952190514124253803
+    second: BossWalk_6
   - first:
-      213: -5517126631642009644
-    second: sprite-256px-36 (9)_7
+      213: 4013311909780606073
+    second: BossWalk_7
   - first:
-      213: 1747352070294173972
-    second: sprite-256px-36 (9)_8
+      213: -2084954724002693333
+    second: BossWalk_8
   - first:
-      213: -439971894149023790
-    second: sprite-256px-36 (9)_9
+      213: 7834643737425775105
+    second: BossWalk_9
   - first:
-      213: -1949845015179874820
-    second: sprite-256px-36 (9)_10
+      213: 2828956658978394340
+    second: BossWalk_10
   - first:
-      213: 6128994865319137596
-    second: sprite-256px-36 (9)_11
+      213: 4676216986848193162
+    second: BossWalk_11
   - first:
-      213: -2932200799380504465
-    second: sprite-256px-36 (9)_12
+      213: 8253634402235228169
+    second: BossWalk_12
   - first:
-      213: 1629017526519090550
-    second: sprite-256px-36 (9)_13
+      213: 7908907457449328864
+    second: BossWalk_13
   - first:
-      213: -687561847374751511
-    second: sprite-256px-36 (9)_14
+      213: 7456153933368248492
+    second: BossWalk_14
   - first:
-      213: -7763594764976002890
-    second: sprite-256px-36 (9)_15
+      213: -1794016498852951437
+    second: BossWalk_15
   - first:
-      213: -1814563707822875279
-    second: sprite-256px-36 (9)_16
+      213: -7453631820219931037
+    second: BossWalk_16
   - first:
-      213: -6318899254953397809
-    second: sprite-256px-36 (9)_17
+      213: -8541044734975606135
+    second: BossWalk_17
   - first:
-      213: -1422146740215412672
-    second: sprite-256px-36 (9)_18
+      213: 4752483211038205342
+    second: BossWalk_18
   - first:
-      213: 5935191333502665583
-    second: sprite-256px-36 (9)_19
+      213: -1275450656872299032
+    second: BossWalk_19
   - first:
-      213: 9166037430249850903
-    second: sprite-256px-36 (9)_20
+      213: -404555382428063755
+    second: BossWalk_20
   - first:
-      213: -4515629599611057753
-    second: sprite-256px-36 (9)_21
+      213: 5180714547616832554
+    second: BossWalk_21
   - first:
-      213: -1304777610218242245
-    second: sprite-256px-36 (9)_22
+      213: 5861233171614446523
+    second: BossWalk_22
   - first:
-      213: 8067258811211623
-    second: sprite-256px-36 (9)_23
+      213: -6388690839276130620
+    second: BossWalk_23
   - first:
-      213: -4693593092168977026
-    second: sprite-256px-36 (9)_24
+      213: 6471609043308575152
+    second: BossWalk_24
   - first:
-      213: 5694174086567279135
-    second: sprite-256px-36 (9)_25
+      213: -8315259729737567960
+    second: BossWalk_25
   - first:
-      213: 2061277473360220445
-    second: sprite-256px-36 (9)_26
+      213: -6819324886511935461
+    second: BossWalk_26
   - first:
-      213: 2213484462692828783
-    second: sprite-256px-36 (9)_27
+      213: -6024985251833251002
+    second: BossWalk_27
   - first:
-      213: 3232332667332029184
-    second: sprite-256px-36 (9)_28
+      213: 34132146691767373
+    second: BossWalk_28
   - first:
-      213: 4308991805386422994
-    second: sprite-256px-36 (9)_29
+      213: 6411254544242757126
+    second: BossWalk_29
   - first:
-      213: -7477020537272817057
-    second: sprite-256px-36 (9)_30
+      213: 7517938857549163882
+    second: BossWalk_30
   - first:
-      213: -3747020047027055852
-    second: sprite-256px-36 (9)_31
+      213: -1230577899580790992
+    second: BossWalk_31
   - first:
-      213: 2313920253009121109
-    second: sprite-256px-36 (9)_32
+      213: -1685797106435640180
+    second: BossWalk_32
   - first:
-      213: -4415227237970115707
-    second: sprite-256px-36 (9)_33
+      213: 2850938943860881732
+    second: BossWalk_33
   - first:
-      213: -443719121024792180
-    second: sprite-256px-36 (9)_34
+      213: -5074803172440355865
+    second: BossWalk_34
   - first:
-      213: 5044205970797955106
-    second: sprite-256px-36 (9)_35
+      213: 659406731539249332
+    second: BossWalk_35
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -156,7 +156,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 50
+  spritePixelsToUnits: 25
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -218,650 +218,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sprite-256px-36 (9)_0
+      name: BossWalk_0
       rect:
         serializedVersion: 2
-        x: 91
-        y: 1047
-        width: 287
-        height: 264
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 36ee1f248b8e9de60800000000000000
-      internalID: 7987671292213063267
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sprite-256px-36 (9)_1
-      rect:
-        serializedVersion: 2
-        x: 99
-        y: 1309
-        width: 264
-        height: 263
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 03c7fbbb1dd6c4530800000000000000
-      internalID: 3840565329805671472
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sprite-256px-36 (9)_2
-      rect:
-        serializedVersion: 2
-        x: 561
-        y: 1309
-        width: 266
-        height: 263
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5c46ea83c65221300800000000000000
-      internalID: 221280478432224453
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sprite-256px-36 (9)_3
-      rect:
-        serializedVersion: 2
-        x: 1023
-        y: 1309
-        width: 267
-        height: 263
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 24ca21594c9961a50800000000000000
-      internalID: 6491544982494817346
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sprite-256px-36 (9)_4
-      rect:
-        serializedVersion: 2
-        x: 1485
-        y: 1309
-        width: 268
-        height: 263
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ab79eea434d436f10800000000000000
-      internalID: 2261736389285418938
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sprite-256px-36 (9)_5
-      rect:
-        serializedVersion: 2
-        x: 1946
-        y: 1309
-        width: 273
-        height: 263
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9a950187be1d68af0800000000000000
-      internalID: -394397108086482519
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sprite-256px-36 (9)_6
-      rect:
-        serializedVersion: 2
-        x: 2408
-        y: 1309
-        width: 279
-        height: 263
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 62e0268d8d9e1df20800000000000000
-      internalID: 3445792307467652646
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sprite-256px-36 (9)_7
-      rect:
-        serializedVersion: 2
-        x: 554
-        y: 1047
-        width: 298
-        height: 259
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4df612c3f8a3f63b0800000000000000
-      internalID: -5517126631642009644
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sprite-256px-36 (9)_8
-      rect:
-        serializedVersion: 2
-        x: 1017
-        y: 1047
-        width: 306
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4197d673377df3810800000000000000
-      internalID: 1747352070294173972
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sprite-256px-36 (9)_9
-      rect:
-        serializedVersion: 2
-        x: 1480
-        y: 1047
-        width: 314
-        height: 251
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2d77712b4e7e4e9f0800000000000000
-      internalID: -439971894149023790
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sprite-256px-36 (9)_10
-      rect:
-        serializedVersion: 2
-        x: 1942
-        y: 1047
-        width: 336
-        height: 240
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cfd23271a42c0f4e0800000000000000
-      internalID: -1949845015179874820
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sprite-256px-36 (9)_11
-      rect:
-        serializedVersion: 2
-        x: 2403
-        y: 1047
-        width: 375
-        height: 240
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c315a817b509e0550800000000000000
-      internalID: 6128994865319137596
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sprite-256px-36 (9)_12
-      rect:
-        serializedVersion: 2
-        x: 87
-        y: 785
-        width: 377
-        height: 240
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f600fce88eabe47d0800000000000000
-      internalID: -2932200799380504465
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sprite-256px-36 (9)_13
-      rect:
-        serializedVersion: 2
-        x: 549
-        y: 785
-        width: 378
-        height: 240
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 67d4e093fce6b9610800000000000000
-      internalID: 1629017526519090550
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sprite-256px-36 (9)_14
-      rect:
-        serializedVersion: 2
-        x: 1010
-        y: 785
-        width: 380
-        height: 240
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9e8dd16842a4576f0800000000000000
-      internalID: -687561847374751511
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sprite-256px-36 (9)_15
-      rect:
-        serializedVersion: 2
-        x: 1472
-        y: 785
-        width: 381
-        height: 241
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6b8e58dc1bb224490800000000000000
-      internalID: -7763594764976002890
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sprite-256px-36 (9)_16
-      rect:
-        serializedVersion: 2
-        x: 1935
-        y: 785
-        width: 381
-        height: 240
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 17dd6e4fbef51d6e0800000000000000
-      internalID: -1814563707822875279
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sprite-256px-36 (9)_17
-      rect:
-        serializedVersion: 2
-        x: 2398
-        y: 785
-        width: 380
-        height: 241
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fc1b5094b92ce48a0800000000000000
-      internalID: -6318899254953397809
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sprite-256px-36 (9)_18
-      rect:
-        serializedVersion: 2
-        x: 83
-        y: 523
-        width: 381
-        height: 241
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0480bfa1315834ce0800000000000000
-      internalID: -1422146740215412672
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sprite-256px-36 (9)_19
-      rect:
-        serializedVersion: 2
-        x: 546
-        y: 523
-        width: 381
-        height: 241
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f63476362190e5250800000000000000
-      internalID: 5935191333502665583
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sprite-256px-36 (9)_20
-      rect:
-        serializedVersion: 2
-        x: 1009
-        y: 523
-        width: 381
-        height: 241
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7180af3aa7e443f70800000000000000
-      internalID: 9166037430249850903
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sprite-256px-36 (9)_21
-      rect:
-        serializedVersion: 2
-        x: 1472
-        y: 523
-        width: 381
-        height: 241
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7a981f1ddc24551c0800000000000000
-      internalID: -4515629599611057753
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sprite-256px-36 (9)_22
-      rect:
-        serializedVersion: 2
-        x: 1935
-        y: 523
-        width: 381
-        height: 241
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b3ffe003daf74ede0800000000000000
-      internalID: -1304777610218242245
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sprite-256px-36 (9)_23
-      rect:
-        serializedVersion: 2
-        x: 2398
-        y: 523
-        width: 380
-        height: 241
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 76fd0cf0129ac1000800000000000000
-      internalID: 8067258811211623
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sprite-256px-36 (9)_24
-      rect:
-        serializedVersion: 2
-        x: 83
-        y: 261
-        width: 381
-        height: 241
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e757a0d43f10ddeb0800000000000000
-      internalID: -4693593092168977026
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sprite-256px-36 (9)_25
-      rect:
-        serializedVersion: 2
-        x: 546
-        y: 261
-        width: 381
-        height: 241
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f1ab317a925c50f40800000000000000
-      internalID: 5694174086567279135
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sprite-256px-36 (9)_26
-      rect:
-        serializedVersion: 2
-        x: 1009
-        y: 261
-        width: 381
-        height: 241
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d11962fd0f02b9c10800000000000000
-      internalID: 2061277473360220445
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sprite-256px-36 (9)_27
-      rect:
-        serializedVersion: 2
-        x: 1473
-        y: 261
-        width: 380
-        height: 241
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f6607aa2460e7be10800000000000000
-      internalID: 2213484462692828783
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sprite-256px-36 (9)_28
-      rect:
-        serializedVersion: 2
-        x: 1937
-        y: 261
-        width: 379
-        height: 241
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 00b67307f6d8bdc20800000000000000
-      internalID: 3232332667332029184
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sprite-256px-36 (9)_29
-      rect:
-        serializedVersion: 2
-        x: 1950
-        y: 0
-        width: 271
+        x: 27
+        y: 1408
+        width: 152
         height: 261
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -871,20 +233,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2da702c873d9ccb30800000000000000
-      internalID: 4308991805386422994
+      spriteID: 40e5b6a164ae62720800000000000000
+      internalID: 2821199803406048772
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite-256px-36 (9)_30
+      name: BossWalk_1
       rect:
         serializedVersion: 2
-        x: 2401
-        y: 261
-        width: 377
-        height: 240
+        x: 230
+        y: 1406
+        width: 171
+        height: 265
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -893,20 +255,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f5aad81bf694c3890800000000000000
-      internalID: -7477020537272817057
+      spriteID: f23ec9ed597163f10800000000000000
+      internalID: 2249010996370531119
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite-256px-36 (9)_31
+      name: BossWalk_2
       rect:
         serializedVersion: 2
-        x: 2415
-        y: 0
-        width: 263
-        height: 263
+        x: 437
+        y: 1402
+        width: 179
+        height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -915,20 +277,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4135faaae19effbc0800000000000000
-      internalID: -3747020047027055852
+      spriteID: 9ac372bd98825f900800000000000000
+      internalID: 717524288187874473
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite-256px-36 (9)_32
+      name: BossWalk_3
       rect:
         serializedVersion: 2
-        x: 87
-        y: 0
-        width: 374
-        height: 239
+        x: 639
+        y: 1397
+        width: 194
+        height: 272
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -937,20 +299,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 55fc03fd532bc1020800000000000000
-      internalID: 2313920253009121109
+      spriteID: 0abe06e9919344060800000000000000
+      internalID: 6936732108251524000
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite-256px-36 (9)_33
+      name: BossWalk_4
       rect:
         serializedVersion: 2
-        x: 554
-        y: 0
-        width: 339
-        height: 239
+        x: 845
+        y: 1396
+        width: 201
+        height: 273
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -959,20 +321,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 583892e4836f9b2c0800000000000000
-      internalID: -4415227237970115707
+      spriteID: 9b9244a3e2a3261d0800000000000000
+      internalID: -3359058401844516423
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite-256px-36 (9)_34
+      name: BossWalk_5
       rect:
         serializedVersion: 2
-        x: 1020
-        y: 0
-        width: 302
-        height: 251
+        x: 1049
+        y: 1395
+        width: 210
+        height: 276
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -981,19 +343,217 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c89c4437fc797d9f0800000000000000
-      internalID: -443719121024792180
+      spriteID: bbbde611f99c23270800000000000000
+      internalID: 8228861154188778427
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite-256px-36 (9)_35
+      name: BossWalk_6
       rect:
         serializedVersion: 2
-        x: 1486
-        y: 0
-        width: 279
+        x: 0
+        y: 1116
+        width: 209
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6a6b0f355009d630800000000000000
+      internalID: 3952190514124253803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWalk_7
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1116
+        width: 209
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97c41532be522b730800000000000000
+      internalID: 4013311909780606073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWalk_8
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 1117
+        width: 202
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2ffb0f99b0c013e0800000000000000
+      internalID: -2084954724002693333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWalk_9
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 1117
+        width: 197
+        height: 279
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10a800f28fe3abc60800000000000000
+      internalID: 7834643737425775105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWalk_10
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 1120
+        width: 180
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e01267c719724720800000000000000
+      internalID: 2828956658978394340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWalk_11
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 1123
+        width: 165
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8aebb9e29245e040800000000000000
+      internalID: 4676216986848193162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWalk_12
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 845
+        width: 156
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 900ac2b52ccca8270800000000000000
+      internalID: 8253634402235228169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWalk_13
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 845
+        width: 148
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e084baed6512cd60800000000000000
+      internalID: 7908907457449328864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWalk_14
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 846
+        width: 144
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca8cb0d7f74997760800000000000000
+      internalID: 7456153933368248492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWalk_15
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 848
+        width: 130
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1003,8 +563,448 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2280157ea9e900640800000000000000
-      internalID: 5044205970797955106
+      spriteID: 37a0ea8df7f5a17e0800000000000000
+      internalID: -1794016498852951437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWalk_16
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 848
+        width: 124
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3662e3db9516f8890800000000000000
+      internalID: -7453631820219931037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWalk_17
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 849
+        width: 122
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9820f01e01d187980800000000000000
+      internalID: -8541044734975606135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWalk_18
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 571
+        width: 142
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e95a0fafc4634f140800000000000000
+      internalID: 4752483211038205342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWalk_19
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 571
+        width: 164
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e5869c9260bc4ee0800000000000000
+      internalID: -1275450656872299032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWalk_20
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 568
+        width: 172
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f7276ae50bb26af0800000000000000
+      internalID: -404555382428063755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWalk_21
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 562
+        width: 187
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2c5665be6895e740800000000000000
+      internalID: 5180714547616832554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWalk_22
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 558
+        width: 202
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb3b0d3f388475150800000000000000
+      internalID: 5861233171614446523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWalk_23
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 558
+        width: 207
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ce6729c78fc657a0800000000000000
+      internalID: -6388690839276130620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWalk_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 279
+        width: 209
+        height: 279
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b9fc970326cfc950800000000000000
+      internalID: 6471609043308575152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWalk_25
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 279
+        width: 207
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 821b1e9f4534a9c80800000000000000
+      internalID: -8315259729737567960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWalk_26
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 280
+        width: 202
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b10a9736524ec51a0800000000000000
+      internalID: -6819324886511935461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWalk_27
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 281
+        width: 190
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64bf28fc5d3f26ca0800000000000000
+      internalID: -6024985251833251002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWalk_28
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 284
+        width: 172
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4cfbfea103497000800000000000000
+      internalID: 34132146691767373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWalk_29
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 286
+        width: 165
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60ec23a2a0a59f850800000000000000
+      internalID: 6411254544242757126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWalk_30
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 8
+        width: 147
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6de2572f85155860800000000000000
+      internalID: 7517938857549163882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWalk_31
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 9
+        width: 146
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0376a039beb1ceee0800000000000000
+      internalID: -1230577899580790992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWalk_32
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 9
+        width: 144
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c84b583a678da98e0800000000000000
+      internalID: -1685797106435640180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWalk_33
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 11
+        width: 131
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 449b7215dd1909720800000000000000
+      internalID: 2850938943860881732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWalk_34
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 12
+        width: 122
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ebcaa1f66da299b0800000000000000
+      internalID: -5074803172440355865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWalk_35
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 13
+        width: 154
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b8f5ebbdeea62900800000000000000
+      internalID: 659406731539249332
       vertices: []
       indices: 
       edges: []
@@ -1023,42 +1023,42 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      sprite-256px-36 (9)_0: 7987671292213063267
-      sprite-256px-36 (9)_1: 3840565329805671472
-      sprite-256px-36 (9)_10: -1949845015179874820
-      sprite-256px-36 (9)_11: 6128994865319137596
-      sprite-256px-36 (9)_12: -2932200799380504465
-      sprite-256px-36 (9)_13: 1629017526519090550
-      sprite-256px-36 (9)_14: -687561847374751511
-      sprite-256px-36 (9)_15: -7763594764976002890
-      sprite-256px-36 (9)_16: -1814563707822875279
-      sprite-256px-36 (9)_17: -6318899254953397809
-      sprite-256px-36 (9)_18: -1422146740215412672
-      sprite-256px-36 (9)_19: 5935191333502665583
-      sprite-256px-36 (9)_2: 221280478432224453
-      sprite-256px-36 (9)_20: 9166037430249850903
-      sprite-256px-36 (9)_21: -4515629599611057753
-      sprite-256px-36 (9)_22: -1304777610218242245
-      sprite-256px-36 (9)_23: 8067258811211623
-      sprite-256px-36 (9)_24: -4693593092168977026
-      sprite-256px-36 (9)_25: 5694174086567279135
-      sprite-256px-36 (9)_26: 2061277473360220445
-      sprite-256px-36 (9)_27: 2213484462692828783
-      sprite-256px-36 (9)_28: 3232332667332029184
-      sprite-256px-36 (9)_29: 4308991805386422994
-      sprite-256px-36 (9)_3: 6491544982494817346
-      sprite-256px-36 (9)_30: -7477020537272817057
-      sprite-256px-36 (9)_31: -3747020047027055852
-      sprite-256px-36 (9)_32: 2313920253009121109
-      sprite-256px-36 (9)_33: -4415227237970115707
-      sprite-256px-36 (9)_34: -443719121024792180
-      sprite-256px-36 (9)_35: 5044205970797955106
-      sprite-256px-36 (9)_4: 2261736389285418938
-      sprite-256px-36 (9)_5: -394397108086482519
-      sprite-256px-36 (9)_6: 3445792307467652646
-      sprite-256px-36 (9)_7: -5517126631642009644
-      sprite-256px-36 (9)_8: 1747352070294173972
-      sprite-256px-36 (9)_9: -439971894149023790
+      BossWalk_0: 2821199803406048772
+      BossWalk_1: 2249010996370531119
+      BossWalk_10: 2828956658978394340
+      BossWalk_11: 4676216986848193162
+      BossWalk_12: 8253634402235228169
+      BossWalk_13: 7908907457449328864
+      BossWalk_14: 7456153933368248492
+      BossWalk_15: -1794016498852951437
+      BossWalk_16: -7453631820219931037
+      BossWalk_17: -8541044734975606135
+      BossWalk_18: 4752483211038205342
+      BossWalk_19: -1275450656872299032
+      BossWalk_2: 717524288187874473
+      BossWalk_20: -404555382428063755
+      BossWalk_21: 5180714547616832554
+      BossWalk_22: 5861233171614446523
+      BossWalk_23: -6388690839276130620
+      BossWalk_24: 6471609043308575152
+      BossWalk_25: -8315259729737567960
+      BossWalk_26: -6819324886511935461
+      BossWalk_27: -6024985251833251002
+      BossWalk_28: 34132146691767373
+      BossWalk_29: 6411254544242757126
+      BossWalk_3: 6936732108251524000
+      BossWalk_30: 7517938857549163882
+      BossWalk_31: -1230577899580790992
+      BossWalk_32: -1685797106435640180
+      BossWalk_33: 2850938943860881732
+      BossWalk_34: -5074803172440355865
+      BossWalk_35: 659406731539249332
+      BossWalk_4: -3359058401844516423
+      BossWalk_5: 8228861154188778427
+      BossWalk_6: 3952190514124253803
+      BossWalk_7: 4013311909780606073
+      BossWalk_8: -2084954724002693333
+      BossWalk_9: 7834643737425775105
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
