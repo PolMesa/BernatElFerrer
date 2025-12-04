@@ -1,94 +1,145 @@
-using UnityEngine;
+ï»¿using UnityEngine;
 using TMPro;
-using UnityEngine.UI; // Añade esta línea
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+using System.Collections;
 
 public class PlayerHealth : MonoBehaviour
 {
     [Header("Stats")]
     public int maxLives = 3;
     private int currentLives;
+    private bool isDead = false;
 
     [Header("UI")]
     public TMP_Text livesText;
-    public Slider healthSlider; // Añade esta referencia al Slider
+    public Slider healthSlider; // Opcional, si usas slider
 
-    [Header("Respawn")]
-    public Vector3 respawnPosition;
-
-    private PlayerStateMachine playerController;
+    [Header("Game Over")]
+    public string gameOverScene = "Game Over";
+    public float gameOverDelay = 2f;
 
     void Start()
     {
         currentLives = maxLives;
         UpdateUI();
+    }
 
-        playerController = GetComponent<PlayerStateMachine>();
-        respawnPosition = transform.position;
+    public void TakeDamage(int damage)
+    {
+        if (isDead) return;
 
-        // Configurar el Slider si está asignado
+        // Restar vida
+        currentLives -= damage;
+        currentLives = Mathf.Max(0, currentLives);
+
+        // Forzar actualizaciÃ³n inmediata de UI
+        UpdateUI();
+
+        Debug.Log($"ðŸ’” Vida: {currentLives}/{maxLives}");
+
+        // Si vida llega a 0, iniciar Game Over con delay
+        if (currentLives <= 0)
+        {
+            StartCoroutine(GameOverSequence());
+        }
+    }
+
+    private IEnumerator GameOverSequence()
+    {
+        isDead = true;
+
+        // 1. Forzar mostrar "0 vidas" inmediatamente
+        currentLives = 0;
+        UpdateUI();
+
+        // 2. Pausa para que se vea el "0" en pantalla
+        yield return new WaitForSeconds(0.5f);
+
+        // 3. Desactivar controles del jugador
+        PlayerStateMachine player = GetComponent<PlayerStateMachine>();
+        if (player != null)
+        {
+            player.enabled = false;
+            if (player.rb2D != null)
+            {
+                player.rb2D.linearVelocity = Vector2.zero;
+            }
+        }
+
+        // 4. Efecto visual de muerte (parpadeo)
+        SpriteRenderer sprite = GetComponent<SpriteRenderer>();
+        if (sprite != null)
+        {
+            for (int i = 0; i < 3; i++)
+            {
+                sprite.color = new Color(1, 0.5f, 0.5f, 0.5f);
+                yield return new WaitForSeconds(0.2f);
+                sprite.color = Color.white;
+                yield return new WaitForSeconds(0.2f);
+            }
+        }
+
+        // 5. Esperar tiempo restante antes de Game Over
+        yield return new WaitForSeconds(gameOverDelay - 1f);
+
+        // 6. Cargar escena Game Over
+        LoadGameOverScene();
+    }
+
+    private void LoadGameOverScene()
+    {
+        Debug.Log("ðŸŽ® Cargando Game Over...");
+        if (!string.IsNullOrEmpty(gameOverScene))
+        {
+            SceneManager.LoadScene(gameOverScene);
+        }
+        else
+        {
+            Debug.LogError("âŒ Nombre de escena Game Over no asignado");
+        }
+    }
+
+    private void UpdateUI()
+    {
+        // Actualizar texto
+        if (livesText != null)
+        {
+            livesText.text = "Vidas: " + currentLives;
+
+            // Cambiar color segÃºn vida
+            if (currentLives <= 1)
+                livesText.color = Color.red;
+            else if (currentLives <= maxLives / 2)
+                livesText.color = Color.yellow;
+            else
+                livesText.color = Color.white;
+        }
+
+        // Actualizar slider si existe
         if (healthSlider != null)
         {
             healthSlider.maxValue = maxLives;
             healthSlider.value = currentLives;
+
+            // Cambiar color de la barra
+            Image fillImage = healthSlider.fillRect.GetComponent<Image>();
+            if (fillImage != null)
+            {
+                if (currentLives <= 1)
+                    fillImage.color = Color.red;
+                else if (currentLives <= maxLives / 2)
+                    fillImage.color = Color.yellow;
+                else
+                    fillImage.color = Color.cyan;
+            }
         }
     }
 
-    // Función para recibir daño (con porcentaje)
-    public void TakeDamage(int damage)
-    {
-        currentLives -= damage;
-        UpdateUI();
-        Debug.Log($"Has recibido {damage} de daño. Vidas restantes: {currentLives}");
-
-        if (currentLives <= 0)
-        {
-            Die();
-        }
-        else
-        {
-            // Efectos de daño (opcional)
-        }
-    }
-
-    // Nueva función para recibir daño por porcentaje
-    public void TakePercentageDamage(float percentage)
-    {
-        int damage = Mathf.CeilToInt(maxLives * percentage);
-        TakeDamage(damage);
-        Debug.Log($"Daño por {percentage * 100}%: {damage} vidas");
-    }
-
-    // Muerte del jugador
-    private void Die()
-    {
-        Debug.Log("¡Jugador muerto!");
-
-        if (playerController != null)
-        {
-            playerController.Respawn();
-        }
-
-        currentLives = maxLives;
-        UpdateUI();
-    }
-
-    // Actualiza la UI
-    private void UpdateUI()
-    {
-        if (livesText != null)
-        {
-            livesText.text = "Vidas: " + currentLives;
-        }
-
-        if (healthSlider != null)
-        {
-            healthSlider.value = currentLives;
-        }
-    }
-
-    // Función para sumar vidas
     public void AddLives(int amount)
     {
+        if (isDead) return;
+
         currentLives += amount;
         if (currentLives > maxLives)
             currentLives = maxLives;
@@ -99,5 +150,10 @@ public class PlayerHealth : MonoBehaviour
     public int GetCurrentLives()
     {
         return currentLives;
+    }
+
+    public bool IsDead()
+    {
+        return isDead;
     }
 }

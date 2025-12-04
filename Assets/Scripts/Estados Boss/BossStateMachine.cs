@@ -21,7 +21,7 @@ public class BossStateMachine : MonoBehaviour
     public float moveSpeed = 3f;
 
     [Header("Ataque")]
-    public float attackDamage = 50f;
+    public float attackDamage = 2f;
     public float attackCooldown = 2f;
     private float lastAttackTime = 0f;
     public Transform attackPoint;

@@ -1,5 +1,6 @@
-using UnityEngine;
 using TMPro;
+using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class PlayerStateMachine : MonoBehaviour
@@ -193,15 +194,10 @@ public class PlayerStateMachine : MonoBehaviour
         }
     }
 
-    // ========== RETROCESO FUNCIONAL ==========
-    public void Die()
-    {
-        Respawn();
-    }
-
+    // ========== SISTEMA DE RETROCESO ==========
     public void ApplyDamage()
     {
-        // 1. RETROCESO INMEDIATO
+        // SOLO RETROCESO, NO DAÑO
         if (rb2D != null)
         {
             // Dirección opuesta a donde mira
@@ -215,13 +211,9 @@ public class PlayerStateMachine : MonoBehaviour
             rb2D.linearVelocity = new Vector2(knockbackX, knockbackY);
         }
 
-        // 2. DAÑO
-        PlayerHealth playerHealth = GetComponent<PlayerHealth>();
-        if (playerHealth != null)
-        {
-            playerHealth.TakeDamage(1);
-        }
+        // ❌ NO APLICAR DAÑO AQUÍ - PlayerHealth ya lo hace
     }
+
     public void ApplyKnockbackFromEnemy(Vector2 enemyPosition)
     {
         if (rb2D == null) return;
@@ -236,33 +228,18 @@ public class PlayerStateMachine : MonoBehaviour
         // Aplicar fuerza
         float knockbackForce = 20f;
         rb2D.linearVelocity = knockbackDirection * knockbackForce;
-
-        Debug.Log($"💥 Retroceso desde enemigo: {knockbackDirection * knockbackForce}");
     }
 
+    // ========== MÉTODOS MANTENIDOS PARA OTROS SCRIPTS ==========
+    public void Die()
+    {
+        Debug.Log("💀 Die() llamado desde otro script");
+        // No hacer nada aquí, PlayerHealth ya maneja el Game Over
+    }
 
     public void Respawn()
     {
-        // Aplicar daño/retroceso
-        ApplyDamage();
-
-        // Teletransportar
-        Vector3 targetPos = respawnPosition;
-
-        if (CheckpointManager.Instance != null && CheckpointManager.Instance.HasCheckpoint())
-        {
-            targetPos = CheckpointManager.Instance.GetCurrentCheckpoint();
-        }
-
-        transform.position = targetPos;
-
-        // Resetear estado
-        ChangeState(idleState);
+        Debug.Log("🔄 Respawn() llamado desde otro script");
+        // No hacer nada aquí, porque vamos a Game Over en lugar de respawn
     }
 }
-
-
-
-
-
-
